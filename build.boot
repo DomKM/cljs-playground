@@ -4,7 +4,8 @@
  :dependencies '[[adzerk/boot-cljs "0.0-2814-3"]
                  [adzerk/boot-reload "0.2.4"]
                  [org.clojure/clojure "1.6.0"]
-                 [pandeiro/boot-http "0.6.2"]])
+                 [pandeiro/boot-http "0.6.2"]
+                 [reagent "0.5.0-alpha3"]])
 
 (require
  '[adzerk.boot-cljs :refer [cljs]]
